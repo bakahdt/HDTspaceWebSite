@@ -15,6 +15,11 @@
     to{color: black;}
 }
 
+@keyframes sticker-text2 {
+    from{color: rgb(37, 198, 253);}
+    to{color: black;}
+}
+
 @keyframes sticker1-background {
     from{background-image: url(../img/hdtspace.png);}
     to{background-image: url(../img/hdtspace-hover.png);}
@@ -23,6 +28,11 @@
 @keyframes sticker2-background {
     from{background-image: url(../img/hdtspace-vanilla.png);}
     to{background-image: url(../img/hdtspace-vanilla-hover.png);}
+}
+
+@keyframes sticker3-background {
+    from{background-image: url(../img/qq.png);}
+    to{background-image: url(../img/qq-hover.png);}
 }
 
 /*导航条*/
@@ -188,6 +198,30 @@
     position: relative;
     left: 100px;
     top: 250px;
+}
+
+/*3*/
+#sticker3{
+    background-image: url(../img/qq.png);
+}
+
+#sticker3:hover{
+    animation-name: sticker3-background;
+    animation-duration: 0.7s;
+    background-image: url(../img/qq-hover.png);
+}
+
+#sticker3:hover p{
+    animation-name: sticker-text2;
+    animation-duration: 1s;
+    color: black;
+}
+
+#p5{
+    color: rgb(37, 198, 253);
+    font-size: 20px;
+    position: relative;
+    top: 120px;
 }
 
 
