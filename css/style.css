@@ -194,13 +194,13 @@
 
 #p4{
     color: white;
-    font-size: 15px;
+    font-size: 18px;
     position: relative;
-    left: 100px;
+    left: 93px;
     top: 250px;
 }
 
-/*3*/
+/*3*//*
 #sticker3{
     background-image: url(../img/qq.png);
 }
@@ -219,10 +219,28 @@
 
 #p5{
     color: rgb(37, 198, 253);
-    font-size: 20px;
+    font-size: 18px;
     position: relative;
-    top: 120px;
+    top: 125px;
 }
+*/
+
+/*
+    13个磁贴
+    1.HDTspace-No.3
+    2.HDTspace-Vanilla
+    3.客户端下载
+    4.公开处刑
+    5.提问的艺术
+    6.加入我们
+    7.点击加群
+    8.赞助服务器
+    9.mod列表
+    10.友情链接
+    11.你服梗百科
+    12.答题
+    13.鸣谢
+*/
 
 /*默认磁贴*/
 #stickerdefault{
