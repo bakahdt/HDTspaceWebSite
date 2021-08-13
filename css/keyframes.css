@@ -1,0 +1,70 @@
+/*动画*/
+@keyframes sticker-text1 {
+    from{color: rgb(231, 231, 231);}
+    to{color: black;}
+}
+
+@keyframes sticker1-background {
+    from{background-image: url(../img/hdtspace.png);}
+    to{background-image: url(../img/hdtspace-hover.png);}
+}
+
+@keyframes sticker2-background {
+    from{background-image: url(../img/hdtspace-vanilla.png);}
+    to{background-image: url(../img/hdtspace-vanilla-hover.png);}
+}
+
+@keyframes sticker3-background {
+    from{background-image: url(../img/blacklist.png);}
+    to{background-image: url(../img/blacklist-hover.png);}
+}
+
+@keyframes sticker4-background {
+    from{background-image: url(../img/art-of-thigh-hugging.png);}
+    to{background-image: url(../img/art-of-thigh-hugging-hover.png);}
+}
+
+@keyframes sticker5-background {
+    from{background-image: url(../img/modlist.png);}
+    to{background-image: url(../img/modlist-hover.png);}
+}
+
+@keyframes sticker6-background {
+    from{background-image: url(../img/donate.png);}
+    to{background-image: url(../img/donate-hover.png);}
+}
+
+@keyframes sticker7-background {
+    from{background-image: url(../img/baka-stem.png);}
+    to{background-image: url(../img/baka-stem-hover.png);}
+}
+
+@keyframes sticker8-background {
+    from{background-image: url(../img/join-us.png);}
+    to{background-image: url(../img/join-us-hover.png);}
+}
+
+@keyframes sticker9-background {
+    from{background-image: url(../img/join-group.png);}
+    to{background-image: url(../img/join-group-hover.png);}
+}
+
+@keyframes sticker10-background {
+    from{background-image: url(../img/exam.png);}
+    to{background-image: url(../img/exam-hover.png);}
+}
+
+@keyframes sticker11-background {
+    from{background-image: url(../img/download.png);}
+    to{background-image: url(../img/download-hover.png);}
+}
+
+@keyframes sticker12-background {
+    from{background-image: url(../img/thanks.png);}
+    to{background-image: url(../img/thanks-hover.png);}
+}
+
+@keyframes sticker13-background {
+    from{background-image: url(../img/friendly-link.png);}
+    to{background-image: url(../img/friendly-link-hover.png);}
+}
