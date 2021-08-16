@@ -1,0 +1,382 @@
+/*磁贴*/
+#div2{
+    background-color: hsla(0, 0%, 50%, 0.5);
+    padding: 5px;
+    height: 960px;
+    text-align: center;
+    width: 960px;
+    display: inline-block;
+    word-spacing:-1em;
+}
+
+#div2 a{
+    float: left;
+}
+
+#div2 a:hover{
+    border: 4px solid white;
+    margin: 1px;
+}
+
+.little-sticker{
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.middle-sticker{
+    display: block;
+    width: 310px;
+    height: 150px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.large-sticker{
+    display: block;
+    width: 310px;
+    height: 310px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.extra-large-sticker{
+    display: block;
+    width: 630px;
+    height: 630px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+/*1*/
+#sticker1{
+    background-image: url(../img/hdtspace.png);
+}
+
+#sticker1:hover{
+    animation-name: sticker1-background;
+    animation-duration: 0.7s;
+    background-image: url(../img/hdtspace-hover.png);
+}
+
+#sticker1:hover p{
+    animation-name: sticker-text1;
+    animation-duration: 1s;
+    color: black;
+}
+
+#p1{
+    color: white;
+    font-size: 60px;
+    position: relative;
+    right: 80px;
+}
+
+#p2{
+    color: rgb(231, 231, 231);
+    font-size: 30px;
+    position: relative;
+    left: 180px;
+    top: 500px;
+}
+
+/*2*/
+#sticker2{
+    background-image: url(../img/hdtspace-vanilla.png);
+}
+
+#sticker2:hover{
+    animation-name: sticker2-background;
+    animation-duration: 0.7s;
+    background-image: url(../img/hdtspace-vanilla-hover.png);
+}
+
+#sticker2:hover p{
+    animation-name: sticker-text1;
+    animation-duration: 1s;
+    color: black;
+}
+
+#p3{
+    color: white;
+    font-size: 30px;
+    position: relative;
+    right: 25px;
+}
+
+#p4{
+    color: white;
+    font-size: 18px;
+    position: relative;
+    left: 90px;
+    top: 245px;
+}
+
+/*3*/
+#sticker3{
+    background-image: url(../img/blacklist.png);
+}
+
+#sticker3:hover{
+    animation-name: sticker3-background;
+    animation-duration: 0.7s;
+    background-image: url(../img/blacklist-hover.png);
+}
+
+#sticker3:hover p{
+    animation-name: sticker-text1;
+    animation-duration: 1s;
+    color: black;
+}
+
+#p5{
+    color: white;
+    font-size: 18px;
+    position: relative;
+    top: 125px;
+}
+
+/*4*/
+#sticker4{
+    background-image: url(../img/art-of-thigh-hugging.png);
+}
+
+#sticker4:hover{
+    animation-name: sticker4-background;
+    animation-duration: 0.7s;
+    background-image: url(../img/art-of-thigh-hugging-hover.png);
+}
+
+#sticker4:hover p{
+    animation-name: sticker-text1;
+    animation-duration: 1s;
+    color: black;
+}
+
+#p6{
+    color: white;
+    font-size: 18px;
+    position: relative;
+    top: 125px;
+}
+
+/*5*/
+#sticker5{
+    background-image: url(../img/modlist.png);
+}
+
+#sticker5:hover{
+    animation-name: sticker5-background;
+    animation-duration: 0.7s;
+    background-image: url(../img/modlist-hover.png);
+}
+
+#sticker5:hover p{
+    animation-name: sticker-text1;
+    animation-duration: 1s;
+    color: black;
+}
+
+#p7{
+    color: white;
+    font-size: 18px;
+    position: relative;
+    top: 125px;
+}
+
+/*6*/
+#sticker6{
+    background-image: url(../img/donate.png);
+}
+
+#sticker6:hover{
+    animation-name: sticker6-background;
+    animation-duration: 0.7s;
+    background-image: url(../img/donate-hover.png);
+}
+
+#sticker6:hover p{
+    animation-name: sticker-text1;
+    animation-duration: 1s;
+    color: black;
+}
+
+#p8{
+    color: white;
+    font-size: 18px;
+    position: relative;
+    top: 125px;
+}
+
+/*7*/
+#sticker7{
+    background-image: url(../img/baka-stem.png);
+}
+
+#sticker7:hover{
+    animation-name: sticker7-background;
+    animation-duration: 0.7s;
+    background-image: url(../img/baka-stem-hover.png);
+}
+
+#sticker7:hover p{
+    animation-name: sticker-text1;
+    animation-duration: 1s;
+    color: black;
+}
+
+#p9{
+    color: white;
+    font-size: 18px;
+    position: relative;
+    top: 125px;
+}
+
+/*8*/
+#sticker8{
+    background-image: url(../img/join-us.png);
+}
+
+#sticker8:hover{
+    animation-name: sticker8-background;
+    animation-duration: 0.7s;
+    background-image: url(../img/join-us-hover.png);
+}
+
+#sticker8:hover p{
+    animation-name: sticker-text1;
+    animation-duration: 1s;
+    color: black;
+}
+
+#p10{
+    color: white;
+    font-size: 18px;
+    position: relative;
+    top: 125px;
+}
+
+/*9*/
+#sticker9{
+    background-image: url(../img/join-group.png);
+}
+
+#sticker9:hover{
+    animation-name: sticker9-background;
+    animation-duration: 0.7s;
+    background-image: url(../img/join-group-hover.png);
+}
+
+#sticker9:hover p{
+    animation-name: sticker-text1;
+    animation-duration: 1s;
+    color: black;
+}
+
+#p11{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    top: 240px;
+}
+
+/*10*/
+#sticker10{
+    background-image: url(../img/exam.png);
+}
+
+#sticker10:hover{
+    animation-name: sticker10-background;
+    animation-duration: 0.7s;
+    background-image: url(../img/exam-hover.png);
+}
+
+#sticker10:hover p{
+    animation-name: sticker-text1;
+    animation-duration: 1s;
+    color: black;
+}
+
+#p12{
+    color: white;
+    font-size: 18px;
+    position: relative;
+    top: 125px;
+}
+
+/*11*/
+#sticker11{
+    background-image: url(../img/download.png);
+}
+
+#sticker11:hover{
+    animation-name: sticker11-background;
+    animation-duration: 0.7s;
+    background-image: url(../img/download-hover.png);
+}
+
+#sticker11:hover p{
+    animation-name: sticker-text1;
+    animation-duration: 1s;
+    color: black;
+}
+
+#p13{
+    color: white;
+    font-size: 18px;
+    position: relative;
+    top: 125px;
+}
+
+/*12*/
+#sticker12{
+    background-image: url(../img/thanks.png);
+}
+
+#sticker12:hover{
+    animation-name: sticker12-background;
+    animation-duration: 0.7s;
+    background-image: url(../img/thanks-hover.png);
+}
+
+#sticker12:hover p{
+    animation-name: sticker-text1;
+    animation-duration: 1s;
+    color: black;
+}
+
+#p14{
+    color: white;
+    font-size: 18px;
+    position: relative;
+    top: 125px;
+}
+
+/*13*/
+#sticker13{
+    position: relative;
+    bottom: 160px;
+    background-image: url(../img/friendly-link.png);
+}
+
+#sticker13:hover{
+    animation-name: sticker13-background;
+    animation-duration: 0.7s;
+    background-image: url(../img/friendly-link-hover.png);
+}
+
+#sticker13:hover p{
+    animation-name: sticker-text1;
+    animation-duration: 1s;
+    color: black;
+}
+
+#p15{
+    color: white;
+    font-size: 18px;
+    position: relative;
+    top: 125px;
+}
+
