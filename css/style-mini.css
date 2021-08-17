@@ -2,10 +2,17 @@
 @media only screen and (max-width: 990px) {
 
 
+/*导航栏*/ 
+#div1{
+    width: 100%;
+    min-width: 650px;
+}
+    
 /*网页底*/
 #div3{
     background-color: rgb(33, 33, 33);
     margin-top: -4px;
+    min-width: 650px;
 }
 
 
