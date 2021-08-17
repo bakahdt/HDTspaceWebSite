@@ -6,6 +6,7 @@
 #body{
     text-align: center;
     background-image: url("../img/background.png");
+    background-repeat: repeat-x;
     background-size: cover;
     width: 100%;
 }
@@ -14,7 +15,6 @@
 /*导航条*/
 #div1{
     width: 100%;
-    min-width: 970px;
 }
 
 #ul1{
@@ -60,7 +60,7 @@
 #div3{
     background-color: rgb(33, 33, 33);
     margin-top: -4px;
-    min-width: 970px;
+    /*min-width: 970px;*/
 }
 
 #p-bottom{

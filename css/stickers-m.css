@@ -1,10 +1,14 @@
+/*磁贴适配 当宽小于970px*/
+@media only screen and (max-width: 990px) {
+
+    
 /*磁贴*/
 #div2{
     background-color: hsla(0, 0%, 50%, 0.5);
     padding: 5px;
-    height: 960px;
+    height: 1440px;
     text-align: center;
-    width: 960px;
+    width: 640px;
     display: inline-block;
     word-spacing:-1em;
 }
@@ -18,6 +22,7 @@
     margin: 1px;
 }
 
+/*磁贴类型*/
 .little-sticker{
     display: block;
     width: 150px;
@@ -50,6 +55,7 @@
     text-decoration: none;
 }
 
+
 /*1*/
 #sticker1{
     background-image: url(../img/hdtspace.png);
@@ -78,8 +84,9 @@
     color: rgb(231, 231, 231);
     font-size: 30px;
     position: relative;
-    left: 180px;
+    left: 370px;
     top: 500px;
+    width: 250px;
 }
 
 /*2*/
@@ -103,13 +110,16 @@
     color: white;
     font-size: 30px;
     position: relative;
+    right: 25px;
 }
 
 #p4{
     color: white;
     font-size: 18px;
     position: relative;
+    left: 170px;
     top: 245px;
+    width: 140px;
 }
 
 /*3*/
@@ -355,7 +365,7 @@
 /*13*/
 #sticker13{
     position: relative;
-    bottom: 160px;
+    bottom: 320px;
     background-image: url(../img/friendly-link.png);
 }
 
@@ -378,3 +388,5 @@
     top: 125px;
 }
 
+
+}
