@@ -8,25 +8,19 @@
     width: 100%;
 }
 
-
-/*导航条*/
-#div1{
-    width: 100%;
+/*目录*/
+#div-index{
+    width: 30%;
+    border: 2px solid black;
+    position: fixed;
+    background-color: chartreuse;
 }
 
-#ul1{
-    background-color: rgb(33, 33, 33);
-    float: left;
-    width: 20%;
-}
-
-.li1{
-    float: right;
+.li2{
     list-style-type: none;
-    border-left: 1px solid black;
 }
 
-.a1{
+.a2{
     display: block;
     text-align: center;
     padding: 14px 30px;
@@ -35,31 +29,14 @@
     height: 21px;
 }
 
-.a1:hover{
-    background-color: rgb(50, 50, 50);
+/*内容*/
+#div2{
+    margin-left: 30%;
+    width: 70%;
+    border: 2px solid black;
+    background-color: aqua;
 }
 
-#ul2{
-    background-color: rgb(33, 33, 33);
-    float: right;
-    width: 80%;
-}
-
-#li-left{
-    border-right: none;
-    border-right: 1px solid black;
-    float: left;
-    list-style-type: none;
-}
-
-
-/*网页底*/
-#div3{
-    background-color: rgb(33, 33, 33);
-    margin-top: -4px;
-}
-
-#p-bottom{
-    padding: 14px;
+.p1{
     color: white;
 }

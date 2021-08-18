@@ -1,5 +1,5 @@
 /*磁贴*/
-#div2{
+#div1{
     background-color: hsla(0, 0%, 50%, 0.5);
     padding: 5px;
     height: 960px;
@@ -9,11 +9,11 @@
     word-spacing:-1em;
 }
 
-#div2 a{
+#div1 a{
     float: left;
 }
 
-#div2 a:hover{
+#div1 a:hover{
     border: 4px solid white;
     margin: 1px;
 }
@@ -80,8 +80,9 @@
     color: rgb(231, 231, 231);
     font-size: 30px;
     position: relative;
-    left: 180px;
+    left: 370px;
     top: 500px;
+    width: 250px;
 }
 
 /*2*/

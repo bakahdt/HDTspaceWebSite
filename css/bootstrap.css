@@ -1,0 +1,42 @@
+/*导航条*/
+#div-bootstrap{
+    width: 100%;
+}
+
+#ul1-bootstrap{
+    background-color: rgb(33, 33, 33);
+    float: left;
+    width: 20%;
+}
+
+#li-bootstrap-left{
+    border-right: none;
+    border-right: 1px solid black;
+    float: left;
+    list-style-type: none;
+}
+
+.a-bootstrap{
+    display: block;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+    color: white;
+    height: 21px;
+}
+
+#ul2-bootstrap{
+    background-color: rgb(33, 33, 33);
+    float: right;
+    width: 80%;
+}
+
+.li-bootstrap{
+    float: right;
+    list-style-type: none;
+    border-left: 1px solid black;
+}
+
+.a-bootstrap:hover{
+    background-color: rgb(50, 50, 50);
+}

@@ -3,13 +3,13 @@
 
 
 /*导航栏*/ 
-#div1{
+#div-bootstrap{
     width: 100%;
     min-width: 650px;
 }
     
 /*网页底*/
-#div3{
+#div-bottom{
     background-color: rgb(33, 33, 33);
     margin-top: -4px;
     min-width: 650px;
