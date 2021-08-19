@@ -16,11 +16,11 @@
     background-color: chartreuse;
 }
 
-.li2{
+.li1{
     list-style-type: none;
 }
 
-.a2{
+.a1{
     display: block;
     text-align: center;
     padding: 14px 30px;
@@ -30,13 +30,34 @@
 }
 
 /*内容*/
-#div2{
-    margin-left: 30%;
-    width: 70%;
-    border: 2px solid black;
+#div1{
+    width: 100%;
     background-color: aqua;
+    display: inline-block;
+    text-align: left;
+    padding-top: 20px;
+}
+
+#div2{
+    float: right;
+    width: 68%;
+    background-color: cornflowerblue;
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+
+#div3{
+    display: inline-block;
+    border-bottom: 3px solid black;
+    width: 96%;
+    margin: 2%;
 }
 
 .p1{
-    color: white;
+    font-size: 50px;
+}
+
+.div4{
+    width: 96%;
+    margin: 2%;
 }
