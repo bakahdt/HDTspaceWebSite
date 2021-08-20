@@ -3,13 +3,13 @@
     padding: 0px;
 }
 
-#body{
+.body{
     text-align: center;
     width: 100%;
 }
 
 /*目录*/
-#div-index{
+.div-index{
     width: 30%;
     border: 2px solid black;
     position: fixed;
@@ -30,7 +30,7 @@
 }
 
 /*内容*/
-#div1{
+.div1{
     width: 100%;
     background-color: aqua;
     display: inline-block;
@@ -38,7 +38,7 @@
     padding-top: 20px;
 }
 
-#div2{
+.div2{
     float: right;
     width: 68%;
     background-color: cornflowerblue;
@@ -46,7 +46,7 @@
     margin-bottom: 20px;
 }
 
-#div3{
+.div3{
     display: inline-block;
     border-bottom: 3px solid black;
     width: 96%;

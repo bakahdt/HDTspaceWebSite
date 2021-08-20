@@ -1,5 +1,5 @@
 /*磁贴*/
-#div1{
+.div-sticker{
     background-color: hsla(0, 0%, 50%, 0.5);
     padding: 5px;
     height: 960px;
@@ -9,11 +9,11 @@
     word-spacing:-1em;
 }
 
-#div1 a{
+.div-sticker a{
     float: left;
 }
 
-#div1 a:hover{
+.div-sticker a:hover{
     border: 4px solid white;
     margin: 1px;
 }
@@ -69,14 +69,14 @@
     color: black;
 }
 
-#p1{
+.p1{
     color: white;
     font-size: 60px;
     position: relative;
     right: 80px;
 }
 
-#p2{
+.p2{
     color: rgb(231, 231, 231);
     font-size: 30px;
     position: relative;
@@ -102,14 +102,14 @@
     color: black;
 }
 
-#p3{
+.p3{
     color: white;
     font-size: 30px;
     position: relative;
     right: 25px;
 }
 
-#p4{
+.p4{
     color: white;
     font-size: 18px;
     position: relative;
@@ -135,7 +135,7 @@
     color: black;
 }
 
-#p5{
+.p5{
     color: white;
     font-size: 18px;
     position: relative;
@@ -159,7 +159,7 @@
     color: black;
 }
 
-#p6{
+.p6{
     color: white;
     font-size: 18px;
     position: relative;
@@ -183,7 +183,7 @@
     color: black;
 }
 
-#p7{
+.p7{
     color: white;
     font-size: 18px;
     position: relative;
@@ -207,7 +207,7 @@
     color: black;
 }
 
-#p8{
+.p8{
     color: white;
     font-size: 18px;
     position: relative;
@@ -231,7 +231,7 @@
     color: black;
 }
 
-#p9{
+.p9{
     color: white;
     font-size: 18px;
     position: relative;
@@ -255,7 +255,7 @@
     color: black;
 }
 
-#p10{
+.p10{
     color: white;
     font-size: 18px;
     position: relative;
@@ -279,7 +279,7 @@
     color: black;
 }
 
-#p11{
+.p11{
     color: white;
     font-size: 25px;
     position: relative;
@@ -303,7 +303,7 @@
     color: black;
 }
 
-#p12{
+.p12{
     color: white;
     font-size: 18px;
     position: relative;
@@ -327,7 +327,7 @@
     color: black;
 }
 
-#p13{
+.p13{
     color: white;
     font-size: 18px;
     position: relative;
@@ -351,7 +351,7 @@
     color: black;
 }
 
-#p14{
+.p14{
     color: white;
     font-size: 18px;
     position: relative;
@@ -377,7 +377,7 @@
     color: black;
 }
 
-#p15{
+.p15{
     color: white;
     font-size: 18px;
     position: relative;

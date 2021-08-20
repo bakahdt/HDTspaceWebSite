@@ -3,7 +3,7 @@
     padding: 0px;
 }
 
-#body{
+.body{
     text-align: center;
     background-image: url("../img/background.png");
     background-repeat: repeat-x;
