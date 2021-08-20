@@ -6,18 +6,25 @@
 .body{
     text-align: center;
     width: 100%;
+    min-width: 650px;
 }
 
 /*目录*/
 .div-index{
     width: 30%;
-    border: 2px solid black;
+    min-width: 195px;
     position: fixed;
-    background-color: chartreuse;
+    margin-top: 20px;
+}
+
+.title{
+    font-size: 30px;
+    margin-bottom: 10px;
 }
 
 .li1{
     list-style-type: none;
+    border-bottom: 1px solid black;
 }
 
 .a1{
@@ -25,14 +32,13 @@
     text-align: center;
     padding: 14px 30px;
     text-decoration: none;
-    color: white;
+    color: black;
     height: 21px;
 }
 
 /*内容*/
 .div1{
     width: 100%;
-    background-color: aqua;
     display: inline-block;
     text-align: left;
     padding-top: 20px;
@@ -41,23 +47,32 @@
 .div2{
     float: right;
     width: 68%;
-    background-color: cornflowerblue;
-    border: 2px solid black;
-    margin-bottom: 20px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-bottom: 50px;
+    padding: 20px 0px 20px 00px;
 }
 
 .div3{
-    display: inline-block;
-    border-bottom: 3px solid black;
-    width: 96%;
-    margin: 2%;
-}
-
-.p1{
-    font-size: 50px;
+    margin: 0% 2% 0% 2%;
 }
 
 .div4{
-    width: 96%;
-    margin: 2%;
+    border-bottom: 1px solid black;
+    margin: 0% 2% 0% 2%;
+}
+
+
+.p1{
+    font-size: 50px;
+    margin-bottom: 3%;
+}
+
+.p2{
+    font-size: 25px;
+}
+
+.p3{
+    float: right;
+    margin: 0px 20px 0px 0px;
 }
