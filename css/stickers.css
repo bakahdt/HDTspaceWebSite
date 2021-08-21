@@ -168,13 +168,13 @@
 
 /*5*/
 #sticker5{
-    background-image: url(../img/modlist.png);
+    background-image: url(../img/getting-started.png);
 }
 
 #sticker5:hover{
     animation-name: sticker5-background;
     animation-duration: 0.7s;
-    background-image: url(../img/modlist-hover.png);
+    background-image: url(../img/getting-started-hover.png);
 }
 
 #sticker5:hover p{
@@ -288,13 +288,13 @@
 
 /*10*/
 #sticker10{
-    background-image: url(../img/exam.png);
+    background-image: url(../img/rules.png);
 }
 
 #sticker10:hover{
     animation-name: sticker10-background;
     animation-duration: 0.7s;
-    background-image: url(../img/exam-hover.png);
+    background-image: url(../img/rules-hover.png);
 }
 
 #sticker10:hover p{
@@ -312,13 +312,13 @@
 
 /*11*/
 #sticker11{
-    background-image: url(../img/download.png);
+    background-image: url(../img/info.png);
 }
 
 #sticker11:hover{
     animation-name: sticker11-background;
     animation-duration: 0.7s;
-    background-image: url(../img/download-hover.png);
+    background-image: url(../img/info-hover.png);
 }
 
 #sticker11:hover p{

@@ -25,8 +25,8 @@
 }
 
 @keyframes sticker5-background {
-    from{background-image: url(../img/modlist.png);}
-    to{background-image: url(../img/modlist-hover.png);}
+    from{background-image: url(../img/getting-started.png);}
+    to{background-image: url(../img/getting-started-hover.png);}
 }
 
 @keyframes sticker6-background {
@@ -50,13 +50,13 @@
 }
 
 @keyframes sticker10-background {
-    from{background-image: url(../img/exam.png);}
-    to{background-image: url(../img/exam-hover.png);}
+    from{background-image: url(../img/rules.png);}
+    to{background-image: url(../img/rules-hover.png);}
 }
 
 @keyframes sticker11-background {
-    from{background-image: url(../img/download.png);}
-    to{background-image: url(../img/download-hover.png);}
+    from{background-image: url(../img/info.png);}
+    to{background-image: url(../img/info-hover.png);}
 }
 
 @keyframes sticker12-background {
