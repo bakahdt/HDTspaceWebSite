@@ -8,3 +8,62 @@
     width: 100%;
     min-width: 650px;
 }
+
+.div1{
+    display: inline-block;
+    width: 80%;
+    padding: 10px;
+    border-bottom: 1px solid rgb(126, 126, 126);
+    margin: 0px 0px 20px 0px;
+}
+
+.div3{
+    width: 80%;
+    display: inline-block;
+    margin: 20px 0px 20px 0px;
+    border-top: 1px solid rgb(126, 126, 126);
+}
+
+.p1{
+    text-align: left;
+    color: rgb(100, 100, 100);
+    margin: 20px;
+}
+
+.table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tr1{
+    background-color: rgb(220, 220, 220);
+}
+
+.tr2{
+    background-color: white;
+}
+
+.table td{
+    text-align: center;
+    height: 40px;
+}
+
+.td1{
+    width: 10%;
+}
+
+.td2{
+    width: 20%;
+}
+
+.td3{
+    width: 10%;
+}
+
+.td4{
+    width: 60%;
+}
+
+td,th{
+    border: 1px solid rgb(126, 126, 126);
+}
