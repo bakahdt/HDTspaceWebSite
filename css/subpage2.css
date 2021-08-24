@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.body{
+    text-align: center;
+    width: 100%;
+    min-width: 650px;
+}
+
+.div1{
+    display: inline-block;
+    width: 80%;
+    background-color: aqua;
+    border-top: 2px solid rgb(126, 126, 126);
+    border-bottom: 2px solid rgb(126, 126, 126);
+    margin: 20px;
+    text-align: left;
+}
+
+.div2{
+    width: 100%;
+}
+
+.p1{
+    font-size: 50px;
+
+}
+
+.div3{
+    width: 100%;
+}
