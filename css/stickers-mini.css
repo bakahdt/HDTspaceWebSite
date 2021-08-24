@@ -316,13 +316,13 @@
 
 /*11*/
 #sticker11{
-    background-image: url(../img/info.png);
+    background-image: url(../img/advertisement.png);
 }
 
 #sticker11:hover{
     animation-name: sticker11-background;
     animation-duration: 0.7s;
-    background-image: url(../img/info-hover.png);
+    background-image: url(../img/advertisement-hover.png);
 }
 
 #sticker11:hover p{
@@ -340,13 +340,13 @@
 
 /*12*/
 #sticker12{
-    background-image: url(../img/thanks.png);
+    background-image: url(../img/info.png);
 }
 
 #sticker12:hover{
     animation-name: sticker12-background;
     animation-duration: 0.7s;
-    background-image: url(../img/thanks-hover.png);
+    background-image: url(../img/info-hover.png);
 }
 
 #sticker12:hover p{

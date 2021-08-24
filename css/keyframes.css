@@ -55,13 +55,13 @@
 }
 
 @keyframes sticker11-background {
-    from{background-image: url(../img/info.png);}
-    to{background-image: url(../img/info-hover.png);}
+    from{background-image: url(../img/advertisement.png);}
+    to{background-image: url(../img/advertisement-hover.png);}
 }
 
 @keyframes sticker12-background {
-    from{background-image: url(../img/thanks.png);}
-    to{background-image: url(../img/thanks-hover.png);}
+    from{background-image: url(../img/info.png);}
+    to{background-image: url(../img/info-hover.png);}
 }
 
 @keyframes sticker13-background {
