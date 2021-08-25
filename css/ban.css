@@ -21,7 +21,6 @@
     width: 80%;
     display: inline-block;
     margin: 20px 0px 20px 0px;
-    border-top: 1px solid rgb(126, 126, 126);
 }
 
 .p1{
@@ -35,25 +34,21 @@
     border-collapse: collapse;
 }
 
-tr:nth-child(odd){
+.tr1{
     background-color: rgb(220, 220, 220);
 }
 
-tr:nth-child(even){
+.tr2{
     background-color: white;
-}
-
-tr:hover{
-    background-color: rgb(200, 200, 200);
 }
 
 .table td{
     text-align: center;
-    height: 40px;
+    height: 50px;
 }
 
 .td1{
-    width: 10%;
+    width: 20%;
 }
 
 .td2{
@@ -61,13 +56,10 @@ tr:hover{
 }
 
 .td3{
-    width: 10%;
-}
-
-.td4{
     width: 60%;
 }
 
 td{
-    border: 1px solid rgb(126, 126, 126);
+    border-top: 1px solid rgb(126, 126, 126);
+    border-bottom: 1px solid rgb(126, 126, 126);
 }

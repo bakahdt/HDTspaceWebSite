@@ -1,14 +1,14 @@
 <?php
-    $conn = mysqli_connect('localhost', 'bans', '###############');
+    $conn = mysqli_connect('localhost', '野兽先辈', '压力马斯内');
     echo    "<meta charset=\"utf-8\">";
 
     echo    "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">";
 
-    echo    "<link rel=\"stylesheet\" href=\"./css/donate.css\">";
+    echo    "<link rel=\"stylesheet\" href=\"./css/ban.css\">";
 	echo	"<link rel=\"stylesheet\" href=\"./css/bootstrap.css\">";
 	echo	"<link rel=\"stylesheet\" href=\"./css/bottom.css\">";
 
-    echo    "<title>HDT封神榜</title>";
+    echo    "<title>公开处刑</title>";
 
     $nav=<<<EOT
     <body class="body">
@@ -58,7 +58,7 @@ echo $nav;
         // 设置编码，防止中文乱码
         mysqli_query($conn , "set names utf8");
 
-        $sql = 'SELECT id, reason, name, server_origin FROM litebans_bans';
+        $sql = 'SELECT reason, name, server_origin FROM litebans_bans';
         mysqli_select_db($conn,'bans');
         $retval = mysqli_query( $conn, $sql );
         if(! $retval )
@@ -67,11 +67,22 @@ echo $nav;
         }
         
         echo '<div class="div3">';
-        echo '<p class="p1">*被ban时腐竹会第一时间加上，如果封禁后很久没有上榜也可以去rua腐竹来让他尽快解决</p>';
-        echo '<table class="table"><thead><tr class="tr1"><td class="td1">序号</td><td class="td2">玩家ID</td><td class="td3">处理服务器</td><td class="td4">封禁理由</td></tr></thead>';
+        echo '<table class="table">
+            <thead>
+                <tr class="tr1">
+                    <td class="td1">玩家ID</td>
+                    <td class="td2">处理服务器</td>
+                    <td class="td3">封禁理由</td>
+                </tr>
+            </thead>';
+        
         while($row = mysqli_fetch_array($retval, MYSQLI_ASSOC))
         {
-            echo "<tr class=\"tr2\"><td class=\"td1\"> {$row['id']}</td> "."<td class=\"td2\">{$row['name']} </td> "."<td class=\"td3\">{$row['server_origin']} </td> "."<td class=\"td4\">{$row['reason']} </td></tr>";
+            echo "<tr class=\"tr2\">
+                <td class=\"td1\">{$row['name']} </td> ".
+                "<td class=\"td2\">{$row['server_origin']} </td> ".
+                "<td class=\"td3\">{$row['reason']} </td>
+            </tr>";
         }
         echo '</table>';
         echo '</div>';
