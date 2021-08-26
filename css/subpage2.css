@@ -12,22 +12,27 @@
 .div1{
     display: inline-block;
     width: 80%;
-    background-color: aqua;
     border-top: 2px solid rgb(126, 126, 126);
     border-bottom: 2px solid rgb(126, 126, 126);
     margin: 20px;
     text-align: left;
+    padding: 20px;
 }
 
 .div2{
-    width: 100%;
+    border-bottom: 1px dotted rgb(126, 126, 126);
+    margin: 0px 20px 10px 20px;
 }
 
 .p1{
     font-size: 50px;
-
 }
 
 .div3{
     width: 100%;
+    margin: 10px 20px 0px 20px;
+}
+
+.p2{
+    font-size: 25px;
 }
