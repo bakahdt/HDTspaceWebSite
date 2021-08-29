@@ -22,3 +22,11 @@
 #a:hover{
     background-color: rgb(200,200,200);
 }
+
+.ul{
+    margin-left: 50px;
+}
+
+.li{
+    font-size: 20px;
+}
