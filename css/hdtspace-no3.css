@@ -1,17 +1,3 @@
-#p1{
-    margin: 10px 0px 0px 10px;
-    font-size: 30px;
-}
-
-#p2{
-    margin-left: 20px;
-}
-
-#p3{
-    margin: 5px 0px 0px 15px;
-    font-size: 23px;
-}
-
 #a{
     border: 2px solid black;
     width: 80px;
@@ -21,12 +7,4 @@
 
 #a:hover{
     background-color: rgb(200,200,200);
-}
-
-.ul{
-    margin-left: 50px;
-}
-
-.li{
-    font-size: 20px;
 }
