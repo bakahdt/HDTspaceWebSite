@@ -106,13 +106,33 @@
 }
 
 .ul{
-    margin-left: 50px;
+    margin: 0px 0px 10px 50px;
 }
 
 .li{
     font-size: 20px;
 }
 
-#p2{
-    margin-left: 20px;
+.a2{
+    border: 2px solid black;
+    width: 80px;
+    margin-top: 10px;
+    background-color: rgb(220,220,220);
+    display: block;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.a2:hover{
+    background-color: rgb(200,200,200);
+}
+
+.a3{
+    color: rgb(33, 33, 33);
+}
+
+.a3:hover{
+    color: rgb(100, 100, 100);
 }
