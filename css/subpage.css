@@ -56,16 +56,15 @@
     margin: 0% 2% 0% 2%;
 }
 
+.h1{
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
 .div4{
     border-bottom: 1px solid rgb(126, 126, 126);
     margin: 0% 2% 0% 2%;
     padding-bottom: 10px;
-}
-
-
-.h1{
-    font-size: 50px;
-    margin-bottom: 25px;
 }
 
 .h2{
@@ -83,7 +82,7 @@
 }
 
 .p1-indent{
-    text-indent:2em;
+    text-indent: 2em;
     font-size: 21px;
 }
 
@@ -93,7 +92,7 @@
 }
 
 .p2-indent{
-    text-indent:2em;
+    text-indent: 2em;
     font-size: 21px;
     margin-left: 20px;
 }

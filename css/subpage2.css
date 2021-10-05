@@ -9,6 +9,7 @@
     min-width: 650px;
 }
 
+/*内容*/
 .div1{
     display: inline-block;
     width: 80%;
@@ -16,23 +17,45 @@
     border-bottom: 2px solid rgb(126, 126, 126);
     margin: 20px;
     text-align: left;
-    padding: 20px;
 }
 
 .div2{
-    border-bottom: 1px dotted rgb(126, 126, 126);
-    margin: 0px 20px 10px 20px;
+    margin: 0% 2% 0% 2%;
 }
 
-.p1{
+.h1{
     font-size: 50px;
+    text-indent: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px dotted rgb(126, 126, 126);
 }
 
 .div3{
-    width: 100%;
-    margin: 10px 20px 0px 20px;
+    margin: 0% 5% 15px 5%;
+}
+
+.h2{
+    font-size: 35px;
+}
+
+.p1{
+    font-size: 25px;
+}
+
+.p1-indent{
+    text-indent: 2em;
+    font-size: 25px;
 }
 
 .p2{
     font-size: 25px;
+    margin-left: 30px;
+}
+
+.a1{
+    color: rgb(33, 33, 33);
+}
+
+.a1:hover{
+    color: rgb(100, 100, 100);
 }
