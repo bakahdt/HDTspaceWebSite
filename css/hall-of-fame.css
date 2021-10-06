@@ -1,0 +1,28 @@
+.h1{
+    text-align: center;
+}
+
+#div1{
+    text-align: center;
+}
+
+.a-hall-of-fame{
+    display: inline-block;
+    width: 40%;
+    height: 200px;
+    margin: 10px 0px 10px 0px;
+    border: 2px solid rgb(90, 90, 90);
+    text-decoration: none;
+    background-color: rgb(220,220,220);
+}
+
+.a-hall-of-fame:hover{
+    background-color: rgb(200,200,200);
+}
+
+.p-hall-of-fame{
+    color: black;
+    font-size: 20px;
+    position: relative;
+    top: 87px;
+}

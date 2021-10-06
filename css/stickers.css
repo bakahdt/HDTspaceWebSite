@@ -216,13 +216,13 @@
 
 /*7*/
 #sticker7{
-    background-image: url(../img/baka-stem.png);
+    background-image: url(../img/hall-of-fame.png);
 }
 
 #sticker7:hover{
     animation-name: sticker7-background;
     animation-duration: 0.7s;
-    background-image: url(../img/baka-stem-hover.png);
+    background-image: url(../img/hall-of-fame-hover.png);
 }
 
 #sticker7:hover p{

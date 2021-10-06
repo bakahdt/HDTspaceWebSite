@@ -35,8 +35,8 @@
 }
 
 @keyframes sticker7-background {
-    from{background-image: url(../img/baka-stem.png);}
-    to{background-image: url(../img/baka-stem-hover.png);}
+    from{background-image: url(../img/hall-of-fame.png);}
+    to{background-image: url(../img/hall-of-fame-hover.png);}
 }
 
 @keyframes sticker8-background {
