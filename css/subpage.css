@@ -14,6 +14,7 @@
     width: 30%;
     min-width: 195px;
     position: fixed;
+    top: 50px;
     margin-top: 20px;
 }
 
@@ -112,10 +113,10 @@
 }
 
 .a2{
-    border: 2px solid rgb(33, 33, 33);
+    border: 2px solid rgb(232, 232, 232);
     width: 80px;
     margin-top: 10px;
-    background-color: rgb(220,220,220);
+    background-color: white;
     display: block;
     text-align: center;
     padding: 14px 30px;
@@ -124,7 +125,8 @@
 }
 
 .a2:hover{
-    background-color: rgb(200,200,200);
+    background-color: rgb(230,230,230);
+    border: 2px solid rgb(100, 100, 100);
 }
 
 .a3{
