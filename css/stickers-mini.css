@@ -2,7 +2,7 @@
 @media only screen and (max-width: 990px) {
 
     
-/*磁贴*/
+/*磁贴框架*/
 .div-sticker{
     background-color: hsla(0, 0%, 50%, 0.5);
     padding: 5px;
@@ -55,7 +55,7 @@
     text-decoration: none;
 }
 
-
+/*磁贴*/
 /*1*/
 #sticker1{
     background-image: url(../img/hdtspace.png);

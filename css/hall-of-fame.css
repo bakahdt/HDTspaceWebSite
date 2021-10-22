@@ -4,16 +4,14 @@
 
 .div-hall-of-fame{
     text-align: center;
-    display: inline-block;
-    width: 80%;
-    margin: 20px;
+    width: 100%;
 }
 
 .a-hall-of-fame{
     display: inline-block;
     width: 40%;
     height: 100px;
-    margin: 50px 5px 70px 5px;
+    margin: 100px 5px 100px 5px;
     border: 2px solid rgb(232, 232, 232);
     text-decoration: none;
     background-color: white;

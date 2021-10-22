@@ -1,5 +1,5 @@
 <?php
-    $conn = mysqli_connect('localhost', '野兽先辈', '压力马斯内');
+    $conn = mysqli_connect('localhost', '123', 'asd123');
     echo    "<meta charset=\"utf-8\">";
 
     echo    "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">";
@@ -79,9 +79,11 @@ echo $nav;
         while($row = mysqli_fetch_array($retval, MYSQLI_ASSOC))
         {
             echo "<tr class=\"tr2\">
-                <td class=\"td1\">{$row['name']} </td> ".
-                "<td class=\"td2\">{$row['server_origin']} </td> ".
-                "<td class=\"td3\">{$row['reason']} </td>
+                <td class=\"td1\">{$row['name']} </td> 
+                "."
+                <td class=\"td2\">{$row['server_origin']} </td> 
+                "."
+                <td class=\"td3\">{$row['reason']} </td>
             </tr>";
         }
         echo '</table>';
@@ -89,9 +91,9 @@ echo $nav;
         mysqli_close($conn);
         
         $footer=<<<EOT
-        <div class="div-bottom">
+        <div class="div-footer">
 
-        <p class="p-bottom">made by bakahdt</p>
+        <footer class="footer">made by bakahdt</footer>
 
         </div>
         
