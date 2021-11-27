@@ -1,8 +1,4 @@
 /*导航条*/
-.div-bootstrap{
-    width: 100%;
-}
-
 .ul1-bootstrap{
     background-color: rgb(33, 33, 33);
     float: left;
@@ -42,11 +38,6 @@
 
 @media only screen and (max-width: 970px) {
 
-    .div-bootstrap{
-        width: 100%;
-        min-width: 650px;
-    }
-    
     .ul1-bootstrap{
         background-color: rgb(33, 33, 33);
         float: left;
@@ -84,4 +75,34 @@
         background-color: rgb(50, 50, 50);
     }
     
+}
+
+/*网页底*/
+.div-footer{
+    background-color: rgb(33, 33, 33);
+    margin-top: -4px;
+}
+
+.footer{
+    padding: 14px;
+    color: white;
+}
+
+@media only screen and (max-width: 970px) {
+
+    .div-footer{
+        background-color: rgb(33, 33, 33);
+        margin-top: -4px;
+        min-width: 650px;
+    }
+    
+    .footer{
+        padding: 14px;
+        color: white;
+    }    
+
+}
+
+*{
+    font-family: sans-serif;
 }

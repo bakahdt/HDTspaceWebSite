@@ -36,10 +36,13 @@
 
 .h2{
     font-size: 35px;
+    background-color: rgb(230,230,230);
+    margin: 20px 0px 20px 0px;
 }
 
 .p1{
     font-size: 25px;
+    margin: 0px 10px 0px 10px;
 }
 
 .p1-indent{

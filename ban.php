@@ -6,7 +6,6 @@
 
     echo    "<link rel=\"stylesheet\" href=\"./css/ban.css\">";
 	echo	"<link rel=\"stylesheet\" href=\"./css/bootstrap.css\">";
-	echo	"<link rel=\"stylesheet\" href=\"./css/bottom.css\">";
 
     echo    "<title>公开处刑</title>";
 
