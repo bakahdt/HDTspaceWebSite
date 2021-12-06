@@ -1,86 +1,36 @@
 /*导航条*/
-.ul1-bootstrap{
+.bootstrap{
     background-color: rgb(33, 33, 33);
-    float: left;
-    width: 50%;
-}
-
-.li-bootstrap-left{
-    border-right: none;
-    border-right: 1px solid black;
-    float: left;
-    list-style-type: none;
-}
-
-.a-bootstrap{
-    display: block;
     text-align: center;
-    padding: 14px 30px;
-    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 50%);
+}
+
+.bootstrap a{
     color: white;
+    display: block;
+    text-decoration: none;
+    padding: 14px 30px;
 }
 
-.ul2-bootstrap{
-    background-color: rgb(33, 33, 33);
-    float: right;
-    width: 50%;
-}
-
-.li-bootstrap{
-    float: right;
-    list-style-type: none;
-    border-left: 1px solid black;
-}
-
-.a-bootstrap:hover{
+.bootstrap a:hover{
     background-color: rgb(50, 50, 50);
 }
 
-@media only screen and (max-width: 970px) {
+.bootstrap-left{
+    float: left;
+}
 
-    .ul1-bootstrap{
-        background-color: rgb(33, 33, 33);
-        float: left;
-        width: 30%;
-    }
-    
-    .li-bootstrap-left{
-        border-right: none;
-        border-right: 1px solid black;
-        float: left;
-        list-style-type: none;
-    }
-    
-    .a-bootstrap{
-        display: block;
-        text-align: center;
-        padding: 20px 30px;
-        text-decoration: none;
-        color: white;
-    }
-    
-    .ul2-bootstrap{
-        background-color: rgb(33, 33, 33);
-        float: right;
-        width: 70%;
-    }
-    
-    .li-bootstrap{
-        float: right;
-        list-style-type: none;
-        border-left: 1px solid black;
-    }
-    
-    .a-bootstrap:hover{
-        background-color: rgb(50, 50, 50);
-    }
-    
+.bootstrap-right{
+    float: right;
 }
 
 /*网页底*/
 .div-footer{
     background-color: rgb(33, 33, 33);
     margin-top: -4px;
+    box-shadow: 0 -2px 4px rgb(0 0 0 / 50%);
 }
 
 .footer{

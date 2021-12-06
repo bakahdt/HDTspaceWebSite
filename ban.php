@@ -11,42 +11,35 @@
 
     $nav=<<<EOT
     <body class="body">
-		<div class="div-bootstrap">
 
-			<ul class="ul1-bootstrap">
+        <!--导航条-->
+        <div class="bootstrap">
 
-				<li class="li-bootstrap-left">
-					<a class="a-bootstrap" href="./index.html">
-						<h4>HDTspace</h4>
-					</a>
-				</li>
+            <a href="./index.html" class="bootstrap-left">
+                <h4>HDTspace</h4>
+            </a>
 
-			</ul>
+            <a href="" class="bootstrap-right">
+                历史档案
+            </a>
 
-			<ul class="ul2-bootstrap">
+            <a href="" class="bootstrap-right">
+                最新动态
+            </a>
 
-				<li class="li-bootstrap">
-					<a class="a-bootstrap" href="">历史档案</a>
-				</li>
+            <a href="" class="bootstrap-right">
+                将来规划
+            </a>
 
-				<li class="li-bootstrap">
-					<a class="a-bootstrap" href="">最新动态</a>
-				</li>
-
-				<li class="li-bootstrap">
-					<a class="a-bootstrap" href="">将来规划</a>
-				</li>
-
-			</ul>
-			
-		</div>
+        </div>
 
 		<!---简述--->
 		<div class="div1">
 			<p>开挂一时爽</p>
 			<p>明日封神榜</p>
 		</div>
-EOT;
+    EOT;
+    
 echo $nav;
         if(! $conn )
         {
