@@ -5,7 +5,7 @@
     echo    "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">";
 
     echo    "<link rel=\"stylesheet\" href=\"./css/ban.css\">";
-	echo	"<link rel=\"stylesheet\" href=\"./css/bootstrap.css\">";
+	echo	"<link rel=\"stylesheet\" href=\"./css/css.css\">";
 
     echo    "<title>公开处刑</title>";
 
