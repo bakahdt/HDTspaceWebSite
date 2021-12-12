@@ -2,6 +2,12 @@
     text-align: center;
 }
 
+.h2{
+    font-size: 35px;
+    background-color: none;
+    margin: 20px 0px 20px 0px;
+}
+
 .div-hall-of-fame{
     text-align: center;
     width: 100%;
@@ -9,22 +15,15 @@
 
 .a-hall-of-fame{
     display: inline-block;
-    width: 40%;
-    height: 100px;
     margin: 100px 5px 100px 5px;
     border: 2px solid rgb(232, 232, 232);
+    box-shadow: 0 2px 8px rgb(0 0 0 / 10%);
     text-decoration: none;
-    background-color: white;
+    color: rgb(33,33,33);
+    font-size: 25px;
+    padding: 32px 12% 32px 12%;
 }
 
 .a-hall-of-fame:hover{
-    background-color: rgb(230,230,230);
-    border: 2px solid rgb(100, 100, 100);
-}
-
-.p-hall-of-fame{
-    color: black;
-    font-size: 25px;
-    position: relative;
-    top: 33px;
+    border: 2px solid rgb(126, 126, 126);
 }

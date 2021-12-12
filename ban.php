@@ -1,18 +1,28 @@
-<?php
-    $conn = mysqli_connect('localhost', '123', 'asd123');
-    echo    "<meta charset=\"utf-8\">";
+<!DOCTYPE html>
+<html lang="zh-CN">
 
-    echo    "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">";
+    <head>
+        <meta charset="utf-8">
 
-    echo    "<link rel=\"stylesheet\" href=\"./css/ban.css\">";
-	echo	"<link rel=\"stylesheet\" href=\"./css/css.css\">";
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    echo    "<title>公开处刑</title>";
+		<link rel="stylesheet" href="./css/css.css">
+        <link rel="stylesheet" href="./css/ban.css">
 
-    $nav=<<<EOT
+        <?php
+            $con = mysqli_connect( "localhost", "123", "asd123" );
+            mysqli_select_db( $con, "bans" );
+            mysqli_query( $con, "set names utf8" );
+            $sql = "SELECT reason, name, server_origin FROM litebans_bans";
+            $ret = mysqli_query( $con, $sql );
+        ?>
+
+        <title>公开处刑</title>
+    </head>
+
     <body class="body">
-
-        <!--导航条-->
+        
+		<!---导航条--->
         <div class="bootstrap">
 
             <a href="./index.html" class="bootstrap-left">
@@ -33,64 +43,51 @@
 
         </div>
 
-		<!---简述--->
+        <!---简述--->
 		<div class="div1">
 			<p>开挂一时爽</p>
 			<p>明日封神榜</p>
 		</div>
-    EOT;
-    
-echo $nav;
-        if(! $conn )
-        {
-            die('Could not connect: ' . mysqli_error());
-        }
-        //echo '数据库连接成功！';
 
-        // 设置编码，防止中文乱码
-        mysqli_query($conn , "set names utf8");
+        <!---封禁表--->
+		<div class="div2">
 
-        $sql = 'SELECT reason, name, server_origin FROM litebans_bans';
-        mysqli_select_db($conn,'bans');
-        $retval = mysqli_query( $conn, $sql );
-        if(! $retval )
-        {
-            die('无法读取数据: ' . mysqli_error($conn));
-        }
-        
-        echo '<div class="div3">';
-        echo '<table class="table">
-            <thead>
-                <tr class="tr1">
-                    <td class="td1">玩家ID</td>
-                    <td class="td2">处理服务器</td>
-                    <td class="td3">封禁理由</td>
-                </tr>
-            </thead>';
-        
-        while($row = mysqli_fetch_array($retval, MYSQLI_ASSOC))
-        {
-            echo "<tr class=\"tr2\">
-                <td class=\"td1\">{$row['name']} </td> 
-                "."
-                <td class=\"td2\">{$row['server_origin']} </td> 
-                "."
-                <td class=\"td3\">{$row['reason']} </td>
-            </tr>";
-        }
-        echo '</table>';
-        echo '</div>';
-        mysqli_close($conn);
-        
-        $footer=<<<EOT
-        <div class="div-footer">
+			<table class="table">
 
-        <footer class="footer">made by bakahdt</footer>
+				<tr class="tr">
+					<td class="td1">
+						<h4>玩家ID</h4>
+					</td>
+					<td class="td2">
+						<h4>处理服务器</h4>
+					</td>
+					<td class="td3">
+						<h4>处理理由</h4>
+					</td>
+				</tr>
+
+                <?php
+                while($row = mysqli_fetch_array( $ret, MYSQLI_ASSOC ))
+                {
+                    echo "<tr class=\"tr\">";
+                        echo "<td>          {$row['name']} </td>";
+                        echo "<td> {$row['server_origin']} </td>";
+                        echo "<td>        {$row['reason']} </td>";
+                    echo "</tr>";
+                }
+                ?>
+
+            </table>
 
         </div>
-        
-EOT;
-    echo $footer;
-    echo '</body>';
 
-?>
+        <!---网页底--->
+		<div class="div-footer">
+
+			<footer class="footer">made by bakahdt</footer>
+
+		</div>
+
+    </body>
+
+</html>
