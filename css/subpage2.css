@@ -20,28 +20,29 @@
 }
 
 .div3{
-    margin: 0% 5% 15px 5%;
+    margin: 0% 5% 20px 5%;
 }
 
 .h2{
     font-size: 35px;
     background-color: rgb(230,230,230);
-    margin: 20px 0px 20px 0px;
+    margin: 20px 0px 0px 0px;
 }
 
 .p1{
     font-size: 25px;
-    margin: 0px 10px 0px 10px;
+    margin: 20px 10px 0px 10px;
 }
 
 .p1-indent{
     text-indent: 2em;
     font-size: 25px;
+    margin: 20px 10px 0px 10px;
 }
 
 .p2{
     font-size: 25px;
-    margin-left: 30px;
+    margin: 20px 10px 0px 30px;
 }
 
 .a1{
