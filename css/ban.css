@@ -43,3 +43,9 @@ td{
     bottom: 0px;
     width: 100%;
 }
+
+.p{
+    float: left;
+    color: rgb(100, 100, 100);
+    font-size: 12px;
+}

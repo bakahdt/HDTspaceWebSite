@@ -45,6 +45,7 @@ body{
     background-color: rgb(33, 33, 33);
     margin-top: -4px;
     box-shadow: 0 -2px 4px rgb(0 0 0 / 50%);
+    min-width: 650px;
 }
 
 .footer{

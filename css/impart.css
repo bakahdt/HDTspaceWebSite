@@ -1,0 +1,39 @@
+.div-sticker{
+    display: inline-block;
+    width: 80%;
+    margin: 19% 0 20% 0;
+    text-align: center;
+    background-color: aqua;
+}
+
+.sticker{
+    display: inline-block;
+    width: 180px;
+    height: 111px;
+    text-decoration: none;
+    background-color: brown;
+}
+
+.div-sticker a:hover{
+    background-color: aquamarine;
+}
+
+.p1{
+    font-size: 18px;
+    color: black;
+}
+
+.test1{
+    margin-top: 10px;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background-color: bisque;
+}
+
+/*网页底*/
+.div-footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
